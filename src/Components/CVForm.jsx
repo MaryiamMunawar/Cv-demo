@@ -10,7 +10,7 @@ const CVForm = () => {
   };
 
   const [formData, setFormData] = useState({ ...initialFormData });
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
 
   const handleSubmit = () => {
     // Handle form submission logic here if needed
